@@ -10,8 +10,17 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "nuxt": "^3.14.0",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "prettier": "3.3.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
